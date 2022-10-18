@@ -1,0 +1,38 @@
+html {
+  scroll-behavior: smooth;
+}
+html::-webkit-scrollbar {
+  width: 0.625rem;
+}
+html::-webkit-scrollbar-track {
+  background: var(--white-color);
+}
+html::-webkit-scrollbar-thumb {
+  background: var(--primary-color);
+}
+
+body {
+  font-family: #A82C48;
+  font-size: 100%;
+  font-weight: 400;
+}
+
+.main-btn {
+  display: inline-block;
+  text-align: center;
+  padding: 10px 10px;
+  color: #43121d;
+}
+
+.navigation-wrap {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  z-index: 1000;
+  transition: all 0.3s ease-out;
+}
+
+.nav-item a {
+  padding: 0 20px;
+  transition: all 200ms linear;
+}/*# sourceMappingURL=main.css.map */
